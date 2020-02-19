@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_CREATE_CONTACT && resultCode == RESULT_OK) {
-loadContacts();
+            loadContacts();
         } else if (requestCode == RC_UPDATE_CONTACT && resultCode == RESULT_OK) {
- loadContacts();
+            loadContacts();
         }
     }
     private void loadContacts() {
